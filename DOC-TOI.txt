@@ -1,0 +1,21 @@
+HUONG DAN CHAY APP BANG 1 CU NHAP DUP (Windows)
+
+1) Chep 3 file KHOI-DONG.bat, CHAY-AN.vbs, TAT-SERVER.bat vao CHUNG THU MUC voi server.js
+   (thu muc co server.js, public/, node_modules/).
+
+2) Chay hang ngay: nhap dup  KHOI-DONG.bat
+   - Lan dau tu cai thu vien (can mang), tu mo trinh duyet vao /quan-ly.
+   - Cua so den phai de mo trong luc dung app. Server bi dung se tu chay lai.
+
+3) Tu bat khi mo may (khong hien cua so):
+   - Bam Windows+R, go:  shell:startup   -> Enter
+   - Chuot phai CHAY-AN.vbs -> Create shortcut, keo shortcut vao thu muc vua mo.
+   - Tu lan khoi dong may sau, server tu chay ngam. Xem loi trong server.log.
+
+4) Tat server: nhap dup TAT-SERVER.bat
+   (luu y: lenh nay tat moi chuong trinh Node.js dang chay tren may).
+
+Cac may khac trong mang noi bo (dien thoai, may nhan vien) vao bang:
+   http://<IP-may-chay-server>:3000/nhan-vien
+Xem IP: mo cmd go  ipconfig  -> dong IPv4 Address.
+Neu khong vao duoc: cho phep Node.js qua Windows Firewall.
